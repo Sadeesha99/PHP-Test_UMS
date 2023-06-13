@@ -1,0 +1,120 @@
+body{
+    background-image: url(../Img/background.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-form{
+
+    width: 450px;
+    margin: 175px auto ;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(51, 153, 255,0.3); 
+    height: 30px;
+    width: 90px;
+    padding:0 10px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+input[type="text"],input[type="password"]{
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;            
+    border-radius: 2px;
+    border: 0px;
+    opacity: 0.4;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(51, 153, 255,0.2);
+    border: 0px;
+    
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(51, 153, 255,0.5);
+}
+
+.shwbtn0{
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    background-color: rgb(51, 153, 255, 0.2);
+    margin-right: 20px;
+}
+.shwbtn1{
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    background-color: rgb(51, 153, 255, 0.8);
+    margin-right: 20px;
+}
+
+button[type="button"]:hover{
+    background-color: rgb(51, 153, 255, 0.5);
+}
+
+.newuser{
+    color: white;
+    width: 320px;
+    margin-top: 10px;
+    margin-left: 22px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    background-color: rgb(51, 153, 255, 0.2);
+    margin-right: 20px;
+}
+
+.newAdmin{
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(51, 153, 255,0.2);
+    border: 0px;
+}
+
+button:hover{
+    background-color: rgb(51, 153, 255,0.5);
+}
